@@ -3,7 +3,7 @@
 # Tech Used - Typescript, React, Tailwind CSS
 # Steps to Install
 ## Clone the Repository
-https://github.com/Atul250603/10times_Frontend.git
+git clone https://github.com/Atul250603/10times_Frontend.git
 ## Open the project in the code editor and In the terminal Run
 npm install
 ## Now to run the application Run
