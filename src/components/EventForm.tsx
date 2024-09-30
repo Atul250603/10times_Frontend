@@ -77,7 +77,7 @@ function EventForm({setShowForm}:{setShowForm:Function}) {
         <div className='bg-white h-max w-full p-2 xs:p-4 rounded-lg shadow-lg shadow-slate-300 overflow-y-auto'>
             
             <div className='w-full h-auto lg:h-[80%] flex flex-col lg:flex-row items-stretch'>
-            <div className='w-full lg:w-1/2 flex flex-col justify-center'>
+            <div className='w-full lg:w-1/2'>
                 <div className='w-full py-2'>
                     <input type="text" className='w-full text-3xl font-bold outline-none bg-transparent placeholder:text-slate-500' value={eventName} onChange={(e)=>setEventName(e.target.value)} name="Event Name" placeholder="Event Name" />
                 </div>
@@ -199,7 +199,7 @@ function EventForm({setShowForm}:{setShowForm:Function}) {
                         </div>
                     </div>:
                     <div className='w-full text-center h-1/2'>
-                        <div className='h-[80%]'>
+                        <div className='h-[200px]'>
                             <div className='h-full'><img src={image} alt="Event" className='h-full block mx-auto border-2 border-black rounded-xl'/></div>
                         </div>
                         <div className='mt-3 font-bold'>Event Image</div>
